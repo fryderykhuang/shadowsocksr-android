@@ -36,7 +36,7 @@
  *                              HERE BE DRAGONS
  *
  */
-package com.github.shadowsocks.utils
+package com.github.shadowsocks_shadow.utils
 
 import java.io.File
 import java.net._
@@ -53,8 +53,8 @@ import android.util.{Base64, DisplayMetrics, Log}
 import android.view.View.MeasureSpec
 import android.view.{Gravity, View, Window}
 import android.widget.Toast
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.{BuildConfig, ShadowsocksRunnerService}
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.{BuildConfig, ShadowsocksRunnerService}
 import org.xbill.DNS._
 
 import scala.collection.JavaConversions._

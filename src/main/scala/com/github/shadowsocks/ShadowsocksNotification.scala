@@ -1,4 +1,4 @@
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.util.Locale
 
@@ -8,9 +8,9 @@ import android.os.PowerManager
 import android.support.v4.app.NotificationCompat
 import android.support.v4.app.NotificationCompat.BigTextStyle
 import android.support.v4.content.ContextCompat
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback.Stub
-import com.github.shadowsocks.utils.{TrafficMonitor, Action, State, Utils}
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.aidl.IShadowsocksServiceCallback.Stub
+import com.github.shadowsocks_shadow.utils.{TrafficMonitor, Action, State, Utils}
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 /**
   * @author Mygod

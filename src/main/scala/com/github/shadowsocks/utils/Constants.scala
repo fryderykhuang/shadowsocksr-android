@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks.utils
+package com.github.shadowsocks_shadow.utils
 
 object Executable {
   val REDSOCKS = "redsocks"

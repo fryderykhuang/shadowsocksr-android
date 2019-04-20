@@ -68,7 +68,7 @@
             </android.support.v7.widget.GridLayout>
         </LinearLayout>
     </LinearLayout>
-    <fragment android:name="com.github.shadowsocks.ShadowsocksSettings"
+    <fragment android:name="com.github.shadowsocks_shadow.ShadowsocksSettings"
               android:id="@android:id/content" android:layout_below="@+id/title_bar"
               android:layout_width="match_parent" android:layout_height="match_parent"/>
     <com.github.jorgecastilloprz.FABProgressCircle android:id="@+id/fabProgressCircle" app:reusable="true"

@@ -1,4 +1,4 @@
-package com.github.shadowsocks.aidl;
+package com.github.shadowsocks_shadow.aidl;
 
 interface IShadowsocksServiceCallback {
   oneway void stateChanged(int state, String profileName, String msg);

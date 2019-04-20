@@ -37,14 +37,14 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.io.{File, FileDescriptor, IOException}
 import java.util.concurrent.Executors
 
 import android.net.{LocalServerSocket, LocalSocket, LocalSocketAddress}
 import android.util.Log
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 object ShadowsocksVpnThread {
   val getInt = classOf[FileDescriptor].getDeclaredMethod("getInt$")

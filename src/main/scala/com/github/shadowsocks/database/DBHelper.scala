@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks.database
+package com.github.shadowsocks_shadow.database
 
 import android.content.Context
 import android.content.pm.ApplicationInfo
@@ -46,7 +46,7 @@ import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper
 import com.j256.ormlite.dao.Dao
 import com.j256.ormlite.support.ConnectionSource
 import com.j256.ormlite.table.TableUtils
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 import scala.collection.JavaConverters._
 import scala.collection.mutable

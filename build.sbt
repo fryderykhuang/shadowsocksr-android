@@ -19,7 +19,7 @@ ndkBuild := Seq()
 proguardVersion := "5.3.2"
 proguardCache := Seq()
 proguardOptions ++=
-  "-keep class com.github.shadowsocks.System { *; }" ::
+  "-keep class com.github.shadowsocks_shadow.System { *; }" ::
   "-keep class okhttp3.** { *; }" ::
   "-keep interface okhttp3.** { *; }" ::
   "-keep class okio.** { *; }" ::

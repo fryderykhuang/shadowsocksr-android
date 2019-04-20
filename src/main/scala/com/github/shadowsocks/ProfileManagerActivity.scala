@@ -1,4 +1,4 @@
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.nio.charset.Charset
 import java.util.Locale
@@ -27,14 +27,14 @@ import android.net.Uri
 import java.io.IOException
 import android.support.design.widget.Snackbar
 import com.github.clans.fab.{FloatingActionButton, FloatingActionMenu}
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.database.SSRSub
-import com.github.shadowsocks.utils.{Key, Parser, TrafficMonitor, Utils}
-import com.github.shadowsocks.widget.UndoSnackbarManager
-import com.github.shadowsocks.utils._
-import com.github.shadowsocks.utils.CloseUtils._
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.aidl.IShadowsocksServiceCallback
+import com.github.shadowsocks_shadow.database.Profile
+import com.github.shadowsocks_shadow.database.SSRSub
+import com.github.shadowsocks_shadow.utils.{Key, Parser, TrafficMonitor, Utils}
+import com.github.shadowsocks_shadow.widget.UndoSnackbarManager
+import com.github.shadowsocks_shadow.utils._
+import com.github.shadowsocks_shadow.utils.CloseUtils._
 import net.glxn.qrgen.android.QRCode
 import java.lang.System.currentTimeMillis
 import java.lang.Thread

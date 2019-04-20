@@ -36,11 +36,11 @@
  *                              HERE BE DRAGONS
  *
  */
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.content.{BroadcastReceiver, Context, Intent}
-import com.github.shadowsocks.utils.{TaskerSettings, Utils}
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.utils.{TaskerSettings, Utils}
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 /**
   * @author CzBiX

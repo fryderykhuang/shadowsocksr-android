@@ -1,4 +1,4 @@
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.util.Locale
 
@@ -17,14 +17,14 @@ import android.view.View
 import android.webkit.{WebView, WebViewClient}
 import android.widget._
 import android.os.Looper
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.preferences._
-import com.github.shadowsocks.utils.{Key, TcpFastOpen, Utils}
-import com.github.shadowsocks.utils.CloseUtils._
-import com.github.shadowsocks.utils.IOUtils
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.database.Profile
+import com.github.shadowsocks_shadow.preferences._
+import com.github.shadowsocks_shadow.utils.{Key, TcpFastOpen, Utils}
+import com.github.shadowsocks_shadow.utils.CloseUtils._
+import com.github.shadowsocks_shadow.utils.IOUtils
 import android.content.Context
-import com.github.shadowsocks.utils._
+import com.github.shadowsocks_shadow.utils._
 
 import java.io.InputStreamReader
 import java.io.BufferedReader

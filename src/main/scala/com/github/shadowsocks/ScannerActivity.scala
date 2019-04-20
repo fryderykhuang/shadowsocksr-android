@@ -1,5 +1,5 @@
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.app.{Activity, TaskStackBuilder}
 import android.content.Intent
@@ -12,8 +12,8 @@ import android.support.v7.widget.Toolbar
 import android.text.TextUtils
 import android.widget.Toast
 import com.google.zxing.Result
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.utils.Parser
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.utils.Parser
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 
 object ScannerActivity {

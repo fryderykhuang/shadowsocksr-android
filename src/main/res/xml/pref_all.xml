@@ -5,11 +5,11 @@
     <PreferenceCategory
             android:title="@string/proxy_cat">
 
-        <com.github.shadowsocks.preferences.SummaryEditTextPreference
+        <com.github.shadowsocks_shadow.preferences.SummaryEditTextPreference
                 android:key="groupName"
                 android:persistent="false"
                 android:title="@string/group_name"/>
-        <com.github.shadowsocks.preferences.SummaryEditTextPreference
+        <com.github.shadowsocks_shadow.preferences.SummaryEditTextPreference
                 android:key="profileName"
                 android:persistent="false"
                 android:title="@string/profile_name"/>
@@ -18,52 +18,52 @@
                 android:persistent="false"
                 android:summary="@string/proxy_click"
                 android:title="@string/proxy"/>
-        <com.github.shadowsocks.preferences.NumberPickerPreference
+        <com.github.shadowsocks_shadow.preferences.NumberPickerPreference
                 app:min="1"
                 app:max="65535"
                 android:key="remotePortNum"
                 android:persistent="false"
                 android:summary="@string/remote_port_summary"
                 android:title="@string/remote_port"/>
-        <com.github.shadowsocks.preferences.NumberPickerPreference
+        <com.github.shadowsocks_shadow.preferences.NumberPickerPreference
                 app:min="1025"
                 app:max="65535"
                 android:key="localPortNum"
                 android:persistent="false"
                 android:summary="@string/port_summary"
                 android:title="@string/port"/>
-        <com.github.shadowsocks.preferences.PasswordEditTextPreference
+        <com.github.shadowsocks_shadow.preferences.PasswordEditTextPreference
                 android:inputType="textPassword"
                 android:key="sitekey"
                 android:persistent="false"
                 android:summary="@string/sitekey_summary"
                 android:title="@string/sitekey"/>
-        <com.github.shadowsocks.preferences.DropDownPreference
+        <com.github.shadowsocks_shadow.preferences.DropDownPreference
                 android:key="encMethod"
                 android:persistent="false"
                 android:entries="@array/enc_method_entry"
                 android:entryValues="@array/enc_method_value"
                 android:summary="%s"
                 android:title="@string/enc_method"/>
-        <com.github.shadowsocks.preferences.DropDownPreference
+        <com.github.shadowsocks_shadow.preferences.DropDownPreference
                 android:key="protocol"
                 android:persistent="false"
                 android:entries="@array/protocol_entry"
                 android:entryValues="@array/protocol_value"
                 android:summary="%s"
                 android:title="@string/protocol"/>
-        <com.github.shadowsocks.preferences.SummaryEditTextPreference
+        <com.github.shadowsocks_shadow.preferences.SummaryEditTextPreference
                 android:key="protocol_param"
                 android:summary="@string/protocol_param_summary"
                 android:title="@string/protocol_param"/>
-        <com.github.shadowsocks.preferences.DropDownPreference
+        <com.github.shadowsocks_shadow.preferences.DropDownPreference
                 android:key="obfs"
                 android:persistent="false"
                 android:entries="@array/obfs_entry"
                 android:entryValues="@array/obfs_value"
                 android:summary="%s"
                 android:title="@string/obfs"/>
-        <com.github.shadowsocks.preferences.SummaryEditTextPreference
+        <com.github.shadowsocks_shadow.preferences.SummaryEditTextPreference
                 android:key="obfs_param"
                 android:summary="@string/obfs_param_summary"
                 android:title="@string/obfs_param"/>
@@ -73,7 +73,7 @@
     <PreferenceCategory
             android:title="@string/feature_cat">
 
-        <com.github.shadowsocks.preferences.DropDownPreference
+        <com.github.shadowsocks_shadow.preferences.DropDownPreference
                 android:key="route"
                 android:persistent="false"
                 android:entries="@array/route_entry"
@@ -95,12 +95,12 @@
                 android:persistent="false"
                 android:summary="@string/udp_dns_summary"
                 android:title="@string/udp_dns"/>
-        <com.github.shadowsocks.preferences.SummaryEditTextPreference
+        <com.github.shadowsocks_shadow.preferences.SummaryEditTextPreference
                         android:key="china_dns"
                         android:persistent="false"
                         android:summary="@string/china_dns_summary"
                         android:title="@string/china_dns"/>
-        <com.github.shadowsocks.preferences.SummaryEditTextPreference
+        <com.github.shadowsocks_shadow.preferences.SummaryEditTextPreference
                 android:key="dns"
                 android:persistent="false"
                 android:summary="@string/dns_summary"

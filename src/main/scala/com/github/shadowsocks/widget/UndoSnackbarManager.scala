@@ -1,8 +1,8 @@
-package com.github.shadowsocks.widget
+package com.github.shadowsocks_shadow.widget
 
 import android.support.design.widget.Snackbar
 import android.view.View
-import com.github.shadowsocks.R
+import com.github.shadowsocks_shadow.R
 
 import scala.collection.mutable.ArrayBuffer
 

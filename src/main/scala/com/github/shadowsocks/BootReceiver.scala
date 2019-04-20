@@ -37,11 +37,11 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.content.pm.PackageManager
 import android.content.{BroadcastReceiver, ComponentName, Context, Intent}
-import com.github.shadowsocks.utils._
+import com.github.shadowsocks_shadow.utils._
 
 object BootReceiver {
   def getEnabled(context: Context) = PackageManager.COMPONENT_ENABLED_STATE_ENABLED ==

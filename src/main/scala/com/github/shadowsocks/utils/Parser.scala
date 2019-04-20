@@ -37,12 +37,12 @@
  *
  */
 
-package com.github.shadowsocks.utils
+package com.github.shadowsocks_shadow.utils
 
 import java.net.URLDecoder
 
 import android.util.{Base64, Log}
-import com.github.shadowsocks.database.Profile
+import com.github.shadowsocks_shadow.database.Profile
 
 object Parser {
   val TAG = "ShadowParser"

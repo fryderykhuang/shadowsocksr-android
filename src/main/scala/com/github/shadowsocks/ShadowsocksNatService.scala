@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.io.File
 import java.net.{Inet6Address, InetAddress}
@@ -48,10 +48,10 @@ import android.content._
 import android.os._
 import android.system.Os
 import android.util.Log
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.job.AclSyncJob
-import com.github.shadowsocks.utils._
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.database.Profile
+import com.github.shadowsocks_shadow.job.AclSyncJob
+import com.github.shadowsocks_shadow.utils._
 import eu.chainfire.libsuperuser.Shell
 import android.preference.PreferenceManager
 import java.io.RandomAccessFile

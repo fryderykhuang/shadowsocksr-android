@@ -37,15 +37,15 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.app.{Activity, KeyguardManager}
 import android.content.{BroadcastReceiver, Context, Intent, IntentFilter}
 import android.net.VpnService
 import android.os.{Bundle, Handler}
 import android.util.Log
-import com.github.shadowsocks.utils.ConfigUtils
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.utils.ConfigUtils
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 object ShadowsocksRunnerActivity {
   private final val TAG = "ShadowsocksRunnerActivity"

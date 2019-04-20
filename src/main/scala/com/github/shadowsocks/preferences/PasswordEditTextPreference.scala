@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks.preferences
+package com.github.shadowsocks_shadow.preferences
 
 import android.content.Context
 import android.preference.EditTextPreference

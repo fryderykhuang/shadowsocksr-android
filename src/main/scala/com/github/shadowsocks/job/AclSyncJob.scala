@@ -1,4 +1,4 @@
-package com.github.shadowsocks.job
+package com.github.shadowsocks_shadow.job
 
 import java.io.IOException
 import java.net.URL
@@ -6,9 +6,9 @@ import java.util.concurrent.TimeUnit
 
 import com.evernote.android.job.Job.{Params, Result}
 import com.evernote.android.job.{Job, JobRequest}
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.utils.CloseUtils._
-import com.github.shadowsocks.utils.IOUtils
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.utils.CloseUtils._
+import com.github.shadowsocks_shadow.utils.IOUtils
 
 /**
   * @author Mygod

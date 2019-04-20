@@ -1,10 +1,10 @@
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.content.{ComponentName, Context, Intent, ServiceConnection}
 import android.os.{RemoteException, IBinder}
-import com.github.shadowsocks.aidl.{IShadowsocksServiceCallback, IShadowsocksService}
-import com.github.shadowsocks.utils.Action
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.aidl.{IShadowsocksServiceCallback, IShadowsocksService}
+import com.github.shadowsocks_shadow.utils.Action
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 /**
   * @author Mygod

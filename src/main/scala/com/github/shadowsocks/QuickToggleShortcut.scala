@@ -1,10 +1,10 @@
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.ShortcutManager
 import android.os.{Build, Bundle}
-import com.github.shadowsocks.utils.{State, Utils}
+import com.github.shadowsocks_shadow.utils.{State, Utils}
 
 /**
   * @author Mygod

@@ -1,4 +1,4 @@
-package com.github.shadowsocks.utils
+package com.github.shadowsocks_shadow.utils
 
 import java.io.File
 

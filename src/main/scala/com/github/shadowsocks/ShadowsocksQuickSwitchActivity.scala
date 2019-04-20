@@ -1,4 +1,4 @@
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.content.pm.ShortcutManager
 import android.content.res.Resources
@@ -7,9 +7,9 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.{DefaultItemAnimator, LinearLayoutManager, RecyclerView, Toolbar}
 import android.view.{LayoutInflater, View, ViewGroup}
 import android.widget.CheckedTextView
-import com.github.shadowsocks.database.Profile
-import com.github.shadowsocks.utils.Utils
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.database.Profile
+import com.github.shadowsocks_shadow.utils.Utils
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 /**
   * Created by Lucas on 3/10/16.

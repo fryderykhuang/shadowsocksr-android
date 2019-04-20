@@ -37,10 +37,10 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.app.backup.{BackupAgentHelper, FileBackupHelper, SharedPreferencesBackupHelper}
-import com.github.shadowsocks.database.DBHelper
+import com.github.shadowsocks_shadow.database.DBHelper
 
 class ShadowsocksBackupAgent extends BackupAgentHelper {
 
@@ -50,9 +50,9 @@ class ShadowsocksBackupAgent extends BackupAgentHelper {
 
   // An arbitrary string used within the BackupAgentHelper implementation to
   // identify the SharedPreferencesBackupHelper's data.
-  val MY_PREFS_BACKUP_KEY = "com.github.shadowsocks"
+  val MY_PREFS_BACKUP_KEY = "com.github.shadowsocks_shadow"
 
-  val DATABASE = "com.github.shadowsocks.database.profile"
+  val DATABASE = "com.github.shadowsocks_shadow.database.profile"
 
   override def onCreate() {
     val helper = new SharedPreferencesBackupHelper(this, PREFS_DISPLAY)

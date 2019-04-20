@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.github.shadowsocks"
+          xmlns:tools="http://schemas.android.com/tools" package="com.github.shadowsocks_shadow"
           android:versionCode="325"
           android:versionName="3.5.4">
 
@@ -76,7 +76,7 @@
                 android:excludeFromRecents="true"
                 android:launchMode="singleTask">
             <intent-filter>
-                <action android:name="com.github.shadowsocks.ProfileManagerActivity"/>
+                <action android:name="com.github.shadowsocks_shadow.ProfileManagerActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>

@@ -1,4 +1,4 @@
-package com.github.shadowsocks.job
+package com.github.shadowsocks_shadow.job
 
 import android.util.Log
 import com.evernote.android.job.JobCreator

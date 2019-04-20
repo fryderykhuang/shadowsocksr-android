@@ -1,6 +1,6 @@
-package com.github.shadowsocks.utils
+package com.github.shadowsocks_shadow.utils
 
-import com.github.shadowsocks.utils.CloseUtils._
+import com.github.shadowsocks_shadow.utils.CloseUtils._
 import java.io.{FileWriter, InputStream, OutputStream}
 
 /**

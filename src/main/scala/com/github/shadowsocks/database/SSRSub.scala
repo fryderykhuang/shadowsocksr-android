@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks.database
+package com.github.shadowsocks_shadow.database
 
 import java.net.URLEncoder
 import java.util.Locale

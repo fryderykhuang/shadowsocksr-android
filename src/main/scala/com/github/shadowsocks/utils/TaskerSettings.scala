@@ -36,12 +36,12 @@
  *                              HERE BE DRAGONS
  *
  */
-package com.github.shadowsocks.utils
+package com.github.shadowsocks_shadow.utils
 
 import android.content.{Context, Intent}
 import android.os.Bundle
-import com.github.shadowsocks.R
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.R
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 import com.twofortyfouram.locale.api.{Intent => ApiIntent}
 
 object TaskerSettings {

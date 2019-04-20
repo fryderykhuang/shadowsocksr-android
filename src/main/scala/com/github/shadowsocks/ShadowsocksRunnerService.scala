@@ -37,14 +37,14 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import android.app.Service
 import android.content.Intent
 import android.net.VpnService
 import android.os.{IBinder, Handler}
-import com.github.shadowsocks.utils.ConfigUtils
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.utils.ConfigUtils
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 class ShadowsocksRunnerService extends Service with ServiceBoundContext {
   val handler = new Handler()

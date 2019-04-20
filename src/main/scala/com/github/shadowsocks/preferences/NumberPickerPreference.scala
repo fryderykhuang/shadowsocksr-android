@@ -1,4 +1,4 @@
-package com.github.shadowsocks.preferences
+package com.github.shadowsocks_shadow.preferences
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -7,7 +7,7 @@ import android.preference.DialogPreference
 import android.util.AttributeSet
 import android.view.{ViewGroup, WindowManager}
 import android.widget.NumberPicker
-import com.github.shadowsocks.R
+import com.github.shadowsocks_shadow.R
 
 /**
   * @author Mygod

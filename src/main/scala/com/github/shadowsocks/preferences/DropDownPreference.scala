@@ -1,4 +1,4 @@
-package com.github.shadowsocks.preferences
+package com.github.shadowsocks_shadow.preferences
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -9,7 +9,7 @@ import android.util.AttributeSet
 import android.view.{View, ViewGroup}
 import android.widget.AdapterView.OnItemSelectedListener
 import android.widget.{AdapterView, ArrayAdapter}
-import com.github.shadowsocks.R
+import com.github.shadowsocks_shadow.R
 
 /**
   * @author Mygod

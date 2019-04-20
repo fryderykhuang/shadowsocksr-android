@@ -1,4 +1,4 @@
-package com.github.shadowsocks.preferences
+package com.github.shadowsocks_shadow.preferences
 
 import java.util.Locale
 

@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.io._
 import java.lang.System.currentTimeMillis

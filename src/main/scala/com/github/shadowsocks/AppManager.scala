@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.util.concurrent.atomic.AtomicBoolean
 
@@ -52,8 +52,8 @@ import android.support.v7.widget.Toolbar.OnMenuItemClickListener
 import android.support.v7.widget.{DefaultItemAnimator, LinearLayoutManager, RecyclerView, Toolbar}
 import android.view._
 import android.widget._
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.utils.{Key, Utils}
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.utils.{Key, Utils}
 
 import scala.collection.JavaConversions._
 import scala.collection.mutable

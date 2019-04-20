@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks.utils
+package com.github.shadowsocks_shadow.utils
 
 import java.io.{File, IOException}
 import java.nio.{ByteBuffer, ByteOrder}
@@ -46,7 +46,7 @@ import java.util.concurrent.Executors
 import android.content.Context
 import android.net.{LocalServerSocket, LocalSocket, LocalSocketAddress}
 import android.util.Log
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 class TrafficMonitorThread(context: Context) extends Thread {
 

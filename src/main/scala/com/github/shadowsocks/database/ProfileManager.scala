@@ -37,10 +37,10 @@
  *
  */
 
-package com.github.shadowsocks.database
+package com.github.shadowsocks_shadow.database
 
 import android.util.Log
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 object ProfileManager {
   private final val TAG = "ProfileManager"

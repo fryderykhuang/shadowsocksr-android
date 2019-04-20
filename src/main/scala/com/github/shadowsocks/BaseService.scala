@@ -37,7 +37,7 @@
  *
  */
 
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.io.IOException
 import java.net.InetAddress
@@ -51,11 +51,11 @@ import android.os.{Handler, RemoteCallbackList}
 import android.text.TextUtils
 import android.util.Log
 import android.widget.Toast
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.aidl.{IShadowsocksService, IShadowsocksServiceCallback}
-import com.github.shadowsocks.utils._
-import com.github.shadowsocks.ShadowsocksApplication.app
-import com.github.shadowsocks.database.Profile
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.aidl.{IShadowsocksService, IShadowsocksServiceCallback}
+import com.github.shadowsocks_shadow.utils._
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.database.Profile
 import okhttp3.{Dns, FormBody, OkHttpClient, Request}
 
 

@@ -36,7 +36,7 @@
  *                              HERE BE DRAGONS
  *
  */
-package com.github.shadowsocks
+package com.github.shadowsocks_shadow
 
 import java.lang.System.currentTimeMillis
 import java.net.{HttpURLConnection, URL}
@@ -57,12 +57,12 @@ import android.util.Log
 import android.view.{View, ViewGroup, WindowManager}
 import android.widget._
 import com.github.jorgecastilloprz.FABProgressCircle
-import com.github.shadowsocks.aidl.IShadowsocksServiceCallback
-import com.github.shadowsocks.database._
-import com.github.shadowsocks.utils.CloseUtils._
-import com.github.shadowsocks.utils._
-import com.github.shadowsocks.job.SSRSubUpdateJob
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.aidl.IShadowsocksServiceCallback
+import com.github.shadowsocks_shadow.database._
+import com.github.shadowsocks_shadow.utils.CloseUtils._
+import com.github.shadowsocks_shadow.utils._
+import com.github.shadowsocks_shadow.job.SSRSubUpdateJob
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 import scala.util.Random
 

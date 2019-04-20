@@ -36,7 +36,7 @@
  *
  */
 
-package com.github.shadowsocks;
+package com.github.shadowsocks_shadow;
 
 public class System {
   static {

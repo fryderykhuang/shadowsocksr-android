@@ -1,9 +1,9 @@
-package com.github.shadowsocks.utils
+package com.github.shadowsocks_shadow.utils
 
 import java.text.DecimalFormat
 
-import com.github.shadowsocks.R
-import com.github.shadowsocks.ShadowsocksApplication.app
+import com.github.shadowsocks_shadow.R
+import com.github.shadowsocks_shadow.ShadowsocksApplication.app
 
 object TrafficMonitor {
   // Bytes per second

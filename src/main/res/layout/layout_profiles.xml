@@ -21,7 +21,7 @@
             app:menu_colorNormal="@color/material_accent_500"
             app:menu_colorPressed="@color/material_accent_700"
             app:fab_colorRipple="@android:color/white"
-            app:layout_behavior="com.github.shadowsocks.widget.FloatingActionMenuBehavior">
+            app:layout_behavior="com.github.shadowsocks_shadow.widget.FloatingActionMenuBehavior">
 
             <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/fab_ssr_sub"

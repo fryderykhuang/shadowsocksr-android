@@ -1,4 +1,4 @@
-package com.github.shadowsocks.widget
+package com.github.shadowsocks_shadow.widget
 
 import android.animation.ValueAnimator
 import android.content.Context
