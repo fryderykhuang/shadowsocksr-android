@@ -242,12 +242,12 @@ class Shadowsocks extends AppCompatActivity with ServiceBoundContext {
     Utils.ThrowableFuture {
       if (app.isNatEnabled) serviceLoad()
       else {
-        val intent = VpnService.prepare(this)
-        if (intent != null) {
-          startActivityForResult(intent, REQUEST_CONNECT)
-        } else {
+        //val intent = VpnService.prepare(this)
+        //if (intent != null) {
+        //  startActivityForResult(intent, REQUEST_CONNECT)
+        //} else {
           handler.post(() => onActivityResult(REQUEST_CONNECT, Activity.RESULT_OK, null))
-        }
+        //}
       }
     }
   }
