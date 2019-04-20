@@ -69,12 +69,13 @@ class ShadowsocksRunnerActivity extends Activity with ServiceBoundContext {
       bgService.use(app.profileId)
       finish()
     } else {
-      val intent = VpnService.prepare(ShadowsocksRunnerActivity.this)
-      if (intent != null) {
-        startActivityForResult(intent, REQUEST_CONNECT)
-      } else {
+      //
+      //val intent = VpnService.prepare(ShadowsocksRunnerActivity.this)
+      //if (intent != null) {
+      //  startActivityForResult(intent, REQUEST_CONNECT)
+      //} else {
         onActivityResult(REQUEST_CONNECT, Activity.RESULT_OK, null)
-      }
+      //}
     }
   }
 
