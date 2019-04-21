@@ -140,13 +140,13 @@ class ShadowsocksVpnService extends VpnService with BaseService {
   override def startRunner(profile: Profile) {
 
     // ensure the VPNService is prepared
-    //if (VpnService.prepare(this) != null) {
+    if (VpnService.prepare(this) != null) {
       val i = new Intent(this, classOf[ShadowsocksRunnerActivity])
       i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
       startActivity(i)
       stopRunner(true)
       return
-    //}
+    }
 
     super.startRunner(profile)
   }
@@ -180,8 +180,8 @@ class ShadowsocksVpnService extends VpnService with BaseService {
     }
 
 
-    //vpnThread = new ShadowsocksVpnThread(this)
-    //vpnThread.start()
+    vpnThread = new ShadowsocksVpnThread(this)
+    vpnThread.start()
 
     // reset the context
     killProcesses()
@@ -210,14 +210,14 @@ class ShadowsocksVpnService extends VpnService with BaseService {
 
     startShadowsocksDaemon()
 
-//    if (profile.udpdns) {
-//      startShadowsocksUDPDaemon()
-//    }
+    if (profile.udpdns) {
+      startShadowsocksUDPDaemon()
+    }
 
-//    if (!profile.udpdns) {1
-//      startDnsDaemon()
-//      startDnsTunnel()
-//    }
+    if (!profile.udpdns) {
+      startDnsDaemon()
+      startDnsTunnel()
+    }
   }
 
 
