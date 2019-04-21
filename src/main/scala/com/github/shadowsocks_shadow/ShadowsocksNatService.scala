@@ -241,10 +241,10 @@ class ShadowsocksNatService extends BaseService {
   /** Called when the activity is first created. */
   def handleConnection() {
     startTunnel()
-    if (!profile.udpdns) startDnsDaemon()
-    startRedsocksDaemon()
+    //if (!profile.udpdns) startDnsDaemon()
+    //startRedsocksDaemon()
     startShadowsocksDaemon()
-    setupIptables()
+    //setupIptables()
   }
 
   def onBind(intent: Intent): IBinder = {
@@ -342,7 +342,9 @@ class ShadowsocksNatService extends BaseService {
   }
 
   override def startRunner(profile: Profile) = if (su == null)
-    su = new Shell.Builder().useSU().setWantSTDERR(true).setWatchdogTimeout(10).open((_, exitCode, _) =>
+    su = new Shell.Builder()
+    // .useSU()
+    .setWantSTDERR(true).setWatchdogTimeout(10).open((_, exitCode, _) =>
       if (exitCode == 0) super.startRunner(profile) else {
         if (su != null) {
           su.close()
